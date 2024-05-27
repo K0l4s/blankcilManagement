@@ -4,9 +4,7 @@ import Router from "./router/Router";
 function App() {
   return (
     <div >
-        <Routes>
-          <Route path="/" element={<p>Hi</p>}/>
-        </Routes>
+        <Router/>
     </div>
   );
 }

@@ -1,0 +1,72 @@
+.dashboard .title{
+    /* background-color: aliceblue; */
+    background-color: #ffffffd5;
+    color: black;
+    width: 100%;
+    padding: 1px;
+    margin:0 auto 10px auto;
+    /* border-radius: 10px; */
+}
+
+.dashboard .title p{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.dashboard .date{
+    /* background-color: aliceblue; */
+    background-color: #ffffffd5;
+
+    color: black;
+    width: 90%;
+    padding: 15px;
+    margin:15px auto 10px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.dashboard .date input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+    background-color: rgba(255, 111, 0, 0.659);
+    color:black;
+}
+
+.dashboard .management{
+    /* background-color: aliceblue; */
+    /* background: linear-gradient(30deg,#ffe031d8 0%, #f045786e 100%); */
+    background-color: #ffffffd5;
+    /* Hiệu ứng glass */
+    backdrop-filter: blur(15px);
+
+    color: black;
+    width: 90%;
+    padding: 15px;
+    margin:15px auto 10px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.dashboard .management .itemBox{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: center;
+}
